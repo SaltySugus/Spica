@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="300dp"
+                                                   android:background="@android:color/transparent">
+
+    <TextView
+            android:text="@string/day_wp"
+            android:layout_width="125dp"
+            android:layout_height="23dp"
+            android:id="@+id/title6"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="247dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="17dp"
+            android:textColor="@color/cardview_light_background"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/day_wp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="271dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="18sp"/>
+
+    <TextView
+            android:text="@string/night_dir"
+            android:layout_width="125dp"
+            android:layout_height="23dp"
+            android:id="@+id/title5"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="176dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="253dp"
+            android:textColor="@color/cardview_light_background"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/night_dir"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="200dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="252dp"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="18sp"/>
+
+    <TextView
+            android:text="@string/day_dir"
+            android:layout_width="125dp"
+            android:layout_height="23dp"
+            android:id="@+id/title4"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="176dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"
+            android:textColor="@color/cardview_light_background"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/day_dir"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="200dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="15dp"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="18sp"/>
+
+    <TextView
+            android:text="@string/night_weather"
+            android:layout_width="125dp"
+            android:layout_height="23dp"
+            android:id="@+id/title3"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="100dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="254dp"
+            android:textColor="@color/cardview_light_background"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/night_weather"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="124dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="253dp"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="18sp"/>
+
+    <TextView
+            android:text="@string/day_weather"
+            android:layout_width="125dp"
+            android:layout_height="23dp"
+            android:id="@+id/title2"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="99dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="17dp"
+            android:textColor="@color/cardview_light_background"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/day_weather"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="123dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="18sp"/>
+
+    <TextView
+            android:text="@string/today_temp"
+            android:layout_width="125dp"
+            android:layout_height="23dp"
+            android:id="@+id/title1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"
+            android:textColor="@color/cardview_light_background"/>
+
+    <TextView
+            android:layout_width="232dp"
+            android:layout_height="26dp"
+            android:id="@+id/temp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="48dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/aldrich"
+            android:textColor="@color/cardview_light_background"/>
+
+    <TextView
+            android:text="@string/night_wp"
+            android:layout_width="125dp"
+            android:layout_height="23dp"
+            android:id="@+id/title7"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="247dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="252dp"
+            android:textColor="@color/cardview_light_background"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/night_wp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="270dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="253dp"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="18sp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

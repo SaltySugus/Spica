@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   android:background="@android:color/transparent"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="700dp"
+                                                   android:orientation="vertical"
+                                                   app:behavior_hideable="false"
+                                                   app:behavior_peekHeight="200dp"
+                                                   android:id="@+id/ll_content_bottom_sheet"
+                                                   app:layout_behavior="@string/bottom_sheet_behavior">
+
+    <include layout="@layout/default_weather_view"
+             android:id="@+id/default_weather"/>
+
+    <include layout="@layout/detail_weather_view"
+             android:layout_below="@id/default_weather"
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:id="@+id/detail_weather"/>
+
+
+</RelativeLayout>

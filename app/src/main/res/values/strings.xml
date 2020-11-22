@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Spica</string>
+    <string name="no_result">无数据返回</string>
+    <string name="today_weather_detail">本日天气详情</string>
+    <string name="day_wp">日间风力</string>
+    <string name="night_dir">夜间风向</string>
+    <string name="day_dir">日间风向</string>
+    <string name="night_weather">夜间天气</string>
+    <string name="day_weather">日间天气</string>
+    <string name="today_temp">本日气温</string>
+    <string name="night_wp">夜间风力</string>
+</resources>

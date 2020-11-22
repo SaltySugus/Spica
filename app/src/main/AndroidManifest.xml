@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="org.sugus.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!--声明后台定位权限-->
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <!--地图包、搜索包需要的基础权限-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"  />
+
+    <permission android:name="android.permission.WRITE_APN_SETTINGS" />
+    <!--定位包、导航包需要的额外权限（注：基础权限也需要）-->
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <!--<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />-->
+
+
+    <application
+            android:icon="@drawable/duoyun"
+            android:label="@string/app_name"
+            android:roundIcon="@drawable/duoyun"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        <service android:name="com.amap.api.location.APSService"/>
+
+        <meta-data android:name="com.amap.api.v2.apikey"
+                   android:value="fa0541e0d36b38b4ca9cf7a749611978"/>
+        <meta-data
+                android:name="preloaded_fonts"
+                android:resource="@array/preloaded_fonts"/>
+
+        <activity android:name=".MainActivity"
+                  android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".CityMenuActivity"
+                  android:theme="@style/AppTheme.NoActionBar"
+                  android:launchMode="singleTask"/>
+
+    </application>
+
+</manifest>
